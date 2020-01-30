@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Register to Test ME App",
+        "description": "",
+        "id": "register;register-to-test-me-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25316110000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User open TestMeApp",
+            "match": {
+              "location": "Register.UseropenTestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8350629500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click signup",
+            "match": {
+              "location": "Register.Userclicksignup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151933600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter user name as \"Shradha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shradha",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.Enterusername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122371600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter first name as \"Shradha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shradha",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.Enterfirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91001300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter last name as \"Jadhav\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jadhav",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.Enterlastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148582600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter password as \"shots11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shots11",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.Enterpassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160045600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter confirm password as \"shots11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shots11",
+                  "offset": 27
+                }
+              ],
+              "location": "Register.Enterconfirmpassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106390700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter select gender as \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Female",
+                  "offset": 24
+                }
+              ],
+              "location": "Register.Enterselectgender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155101000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter email as \"sjadhav@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sjadhav@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.Enteremail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120533900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter mobile as \"5632489751\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5632489751",
+                  "offset": 17
+                }
+              ],
+              "location": "Register.Entermobile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147604500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter dob as \"01/01/1996\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01/01/1996",
+                  "offset": 14
+                }
+              ],
+              "location": "Register.Enterdob(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92869500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter address as \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pune",
+                  "offset": 18
+                }
+              ],
+              "location": "Register.Enteraddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105636100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter answer as \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pune",
+                  "offset": 17
+                }
+              ],
+              "location": "Register.Enteranswer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289436900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click Register",
+            "match": {
+              "location": "Register.UserclickRegister()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file.feature"
+  }
+]
